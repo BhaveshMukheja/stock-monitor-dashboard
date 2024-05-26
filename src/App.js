@@ -32,7 +32,7 @@ function App() {
           <Router>
             <Routes>
               {/* Route for the Dashboard component */}
-              <Route path="/" exact element={<Dashboard />} />
+              <Route path="/stock-monitor-dashboard" exact element={<Dashboard />} />
               {/* Route for the SignIn component */}
               {/* <Route path="/" exact element={<SignIn />} /> */}
               {/* Route for the SignUp component */}
